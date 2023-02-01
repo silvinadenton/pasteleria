@@ -1,0 +1,680 @@
+body{
+	     font-family: 'Dekko', cursive;
+         }
+header{
+         width: 960px;
+         height: 550px;
+         margin-right:auto;
+         margin-left: auto;
+         /*background-color: #F8F2BA;*/
+         margin-top: 2px;
+
+         }
+
+  #toldo{
+	     width: 959px;
+	     height: 439px;
+         background-image: url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/tetera.png);
+         /* border-color: 1px solid #A49BE9,
+         /*border: 1px solid #553245;
+	     -moz-border-radius: 7px;
+	     -webkit-border-radius: 7px;*/
+         }
+	
+  #botonera_superior{
+	    width: 960px;
+	    height: 95px;
+	    background-color:#ebe7dd;  
+	    margin-top:  5px;
+	    margin-bottom: 5px;
+	    /* border-color: 1px solid #A49BE9,
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;*/
+         }
+
+  nav#botonera_superior
+     ul{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	    }
+
+   nav#botonera_superior ul li  {
+	display: inline;}
+
+   nav#botonera_superior ul li a   {display: inline-block;
+		
+		width: 152px;
+		height: 80px;
+		background-color:#84c3cc;
+	    margin-top: 6px;
+        margin-left: 1px;
+	    color: #7C1202;
+		text-decoration: none;
+		text-align: center;
+		line-height: 70px;
+        border: 1px solid #E6ECAB;
+        font-weight: bold;
+        font-size: 25px;
+
+   } 
+    nav#botonera_superior ul li   :hover 
+    {
+
+	    background-color:#E6ECAB; 	
+	    color: #353545;
+	    transform: scale(1.0,1.2);
+       }
+
+
+#home{
+		width: 960px;
+        height: 1680px;
+        background-image:url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/imagen-combinada.png);
+        margin-right:auto;
+        margin-left: auto;
+        margin-top: 8px;
+        margin-bottom: 8px; 
+        opacity:1;
+        }
+
+#muffins
+       {
+ 	     width: 470px;
+         height: 300px;
+         background-color:#84c3cc ;
+         padding: 10px;
+         box-sizing: border-box;
+         margin-left: 5px; 
+         float: left;
+         color:#7C1202;
+
+         }
+
+
+
+#imagen_muffins{
+	 
+	     width: 470px;
+         height: 300px;
+         background-image:url( https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/muffins.png);
+         background-repeat: no-repeat;
+         background-position: center;
+         float: right;
+
+         }
+#imagen_pasteles{
+	 
+	     width: 470px;
+         height: 300px;
+         background-image: url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/marquese.jpg); 
+         float: left;
+         margin-top: 5px;
+         background-repeat: no-repeat;
+         background-position: center;
+         }
+#pasteles{
+	     width: 470px;
+	     height: 300px;
+         background-color:#84c3cc ;
+         padding: 5px;
+         box-sizing: border-box;
+         float: right;
+         color:#7C1202;
+         font-size: 22px,
+         margin-left:10px;
+         }
+
+
+
+#galletitas{
+         color:#7C1202;
+	     width: 470px;
+         height: 290px;
+         background-color:#84c3cc ; 
+         padding: 6px;
+         box-sizing: border-box;
+         float: left;
+         margin-top:  5px;
+         }
+
+ #imagen_galletitas{
+    	 width: 470px;
+         height: 300px;
+         background-image:url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/galletitas.jpg) ;
+         background-repeat: no-repeat;
+         background-position: center;
+         float: right;
+         margin-top: 5px;
+ 
+         }
+
+#budines
+	    {
+		 width: 469px;
+	     height: 280px;
+	     background-color:#84c3cc ; 
+	     float: right;
+         color:#7C1202;
+	     padding: 10px;
+         }
+
+ #imagen_budines{
+	     width: 470px;
+	     height: 300px;
+	     background-image: url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/budines.jpg) ; 
+	     float: left;
+	     margin-bottom: 5px;
+	     margin-top:  5px;
+	     }
+
+
+
+  article#precios
+         {
+	     text-align: center;
+         color:#7C1202;
+         font-family: 'Fredoka One', cursive;
+	     font-size: 25px;
+         }
+
+
+  nav#botonera_precios ul li 
+          {
+	      display: inline-block;
+	      }
+
+  nav#botonera_precios ul li a  
+          {
+ 	     display:inline-block; 
+	     width: 100px;
+		 height: 80px;
+         text-decoration: none;
+         color: #7C1202;
+         border: 1px solid #E6ECAB;
+         font-weight: bold;
+         font-size: 20px;
+         text-align: center;
+         background-color:#84c3cc;
+	     margin-top: 6px;
+         margin-left: 1px;
+	     line-height: 70px;
+    
+         }
+
+  nav#botonera_precios ul li   :hover 
+         {
+         background-color:#E6ECAB; 	
+	     color: #353545;
+	     transform: scale(1.0,1.2);
+         }
+
+  #imagen_precios{
+	     width: 300px;
+	     height: 225px;
+	     float: right;
+	     }
+
+#imagen-precio img{
+	     width: 100%;
+         }
+
+#texto_botonera_precios{
+         width: 250px;
+	     height: 250px;
+	     float:right;
+	     padding: 20px;
+	     color:#7C1202;
+	     font-family: 'Fredoka One', cursive;
+	     font-size: 25px;
+         }
+
+footer{
+
+         width: 960px;
+         height: 500px;
+         background-color:#84c3cc;
+         margin-right:auto;
+         margin-left: auto;
+         padding: 10px;
+         box-sizing: border-box;
+
+
+}
+
+nav#botonera_inferior{
+	     width: 210px;
+	     height: 80px;
+	     background-color:  #F8F2BA;
+	     position: relative;
+	     top:120px;
+         left:255px;
+
+         }
+
+.icono_botonera{
+	     width:60px;
+	     height:60px;     
+	     }
+nav#botonera_inferior ul{
+	     margin: 5px;
+	     padding: 5px;
+	     list-style-type: none;
+         }
+	nav#botonera_inferior ul li  {
+	     display: inline;
+         }
+	
+
+#botonera_inferior
+ img:hover{
+	     display: inline-block;
+	     border-radius:150px;
+	     background-position: center;
+	
+         }
+
+#contacto{
+	     width: 350px;
+	     height:400px;
+	     background-color:  #F8F2BA;
+	     float: right;
+	     margin-right:5px;
+	     margin-top:  5px;
+	     padding: 10px;
+         box-sizing: border-box;
+         color:#7C1202;
+         }
+input,textarea {
+
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	padding: 5px;
+
+}
+ #enviado{ width: 955px;
+ 	height: 400px;
+ 	background-image:url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/imagen-combinada.png);
+position: relative;
+	     top:420px;
+	    color:#3FA395;
+	    font-size: 20px;
+         
+
+ }
+
+
+
+
+
+
+
+
+
+ @media all and (min-width: 600px) and (max-width: 1023px){
+
+ header{
+         width: 580px;
+
+         }
+
+  #toldo{
+	     width: 580px;
+	     background-position: center;
+         }
+	
+  nav#botonera_superior{
+	     width: 580px;
+         }
+	
+	
+
+  nav#botonera_superior ul li a   {
+		
+		 width: 89px;
+		 height: 80px;
+		 font-weight: bold;
+         font-size: 18px;
+         } 
+    
+ #home{
+		 width: 580px;
+		 height: 1700px;
+		
+         }
+#muffins
+        {
+ 	     width: 283px;
+ 	     font-size: 15px;
+ 	     }
+
+#imagen_muffins{
+	 
+	     width: 283px;
+         }
+#imagen_pasteles{
+	 
+	     width:283px;
+	     }
+
+#pasteles{
+
+	     width: 283px;
+         font-size: 12px;
+         }
+
+#galletitas{
+
+	     width: 283px;
+         }
+
+#imagen_galletitas{
+	     width: 283px;
+
+         }
+
+#budines
+	    {
+		 width: 275px;
+	    }
+
+#imagen_budines{
+	     width: 283px;
+
+         }
+ div#precios {
+	     text-align: center;
+         }
+nav#botonera_precios ul li  {
+	     display: inline;
+	     }
+
+nav#botonera_precios ul li a   {display:inline ;
+		
+		 width: 200px;
+		 height:200px;
+		 background-color: #84c3cc;
+	     margin-bottom:400px;
+         color: #7C1202;
+		 text-decoration: none;
+		 text-align: center;
+		 line-height: 80px;
+         border: 1px solid #E6ECAB;
+         font-weight: bold;
+         font-size: 20px;
+
+         } 
+nav#botonera_precios ul li a:hover 
+         {
+
+	     background-color:#E6ECAB; 	
+	     color:#353545;
+	     transform: scale(1.0,1.2);*/
+         }
+
+#imagen_precios{
+	     width: 175px;
+	     height: 175px;
+	     position: absolute;
+	     top:2020px;
+         left:150px;
+
+         }
+#imagen-precio img{
+	     width: 50%;
+
+         }
+#texto_botonera_precios{
+         width: 190px;
+	     height: 250px;
+	     float:right;
+	     padding: 10px;
+	     color:#7C1202;
+	     font-family: 'Fredoka One', cursive;
+	     font-size: 15px;
+         }
+footer{
+
+         width: 580px;
+         }
+
+nav#botonera_inferior{
+	     width: 215px;
+	     position: absolute;
+	     top:2420px;
+	     left: 130px;
+}
+
+
+.icono_botonera{
+	     width:60px;
+	     height:60px;       
+	     }
+	
+
+#botonera_inferior img:hover{
+	     display:inline-block; 
+	
+         }
+
+#contacto{
+	     width: 280px;
+	     height: 350px;
+	     font-size: 12px;
+	     }
+
+#enviado{ width: 580px;
+ 	height: auto;
+ 	margin-right:30px; 
+     position: relative;
+	    left:-10px;
+	    color:#3FA395;
+	    font-size: 20px;
+         
+
+ }
+
+
+
+}/*media min600px*/
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 599px){
+
+header{
+         width: 96%;
+         height: auto;
+          background-image:url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/imagen-combinada.png);
+         }
+
+ #toldo{
+	     width: 96%;
+	     background-position: center;
+	     background-image:url(https://silvinadentonacebal.000webhostapp.com/proyecto_pasteleria/toldo2.png);
+	     background-repeat: no-repeat;  
+	     margin-left: 2%;
+         }
+
+ nav#botonera_superior{
+	     width: 96%;
+	     height: auto;
+         margin-left: 2%;
+	     }
+
+ nav#botonera_superior ul li a   {
+ 	     display:block;
+		 margin-right: 2px;
+		 width: 100%;
+		 height: 70%;
+		 padding: 5px 5px;
+	     box-sizing: border-box;
+	     line-height: 70px;
+         font-size: 18px;
+      
+
+         } 
+    
+#home{
+		 width: 96%;
+         height:140%;
+         }
+
+#muffins
+         {
+         width: 96%;
+ 	     float: none;
+ 	     font-size: 80%;
+         }
+
+#imagen_muffins{
+	 
+	     width: 96%;
+         float: none;
+         }
+#imagen_pasteles{
+	 
+	     width: 96%;
+         float: none;
+         margin-bottom: 4px;
+         }
+
+#pasteles{
+	     width: 96%;
+         box-sizing: border-box;
+         float: none;
+         font-size: 80%;
+         }
+
+#galletitas{
+
+	     width: 96%;
+         float: none;
+         }
+
+#imagen_galletitas{
+	     width: 96%;
+         float: none;
+         }
+
+#budines{
+	     width: 96%;
+	     float:none;
+	     }
+
+
+#imagen_budines{
+	     width: 96%;
+	     float: none;
+         }
+#imagen_precios{
+	     width: 10%;
+	     height: 10%;
+	     position: absolute;
+	     top:630%;
+         left:23%;
+
+         }
+#texto_botonera_precios{
+         width: 30%;
+	     height: 30%;
+	     float:none;
+	     padding: 1px;
+	     color:#7C1202;
+	     font-family: 'Fredoka One', cursive;
+	     font-size: 80%;
+	     position: absolute;
+	     top:710%;
+         left:35%;
+
+         }       
+ div#precios {
+	     text-align: center;
+         }
+
+ nav#botonera_precios ul {
+	     margin: 0;
+	     padding: 0;
+	     list-style-type: none; margin-left: 8%;
+         }
+
+ nav#botonera_precios ul li{
+	         display: inline;
+	         }
+
+ nav#botonera_precios ul li a{
+ 	     display:inline-block ;
+		 width: 22%;
+		 height: 26%;
+		 background-color:#84c3cc;
+	     margin-bottom:400px;
+         color: #7C1202;
+		 text-decoration: none;
+		 text-align: center;
+		 line-height: 50px;
+         border: 1px solid #E6ECAB;
+         font-weight: bold;
+         font-size: 15px;
+         } 
+
+footer{
+
+         width: 96%;
+
+         }
+
+ nav#botonera_inferior{
+	     width: 25%;
+	     height:40%;
+	     position: absolute;
+	     top:710%;
+         left:10%;
+         padding-left: 5%;
+         box-sizing: border-box;
+         }
+
+ .icono_botonera{
+	     width:50%;
+	     height:50%; 
+	     }
+	
+
+  nav#botonera_inferior img:hover{
+         }
+#contacto{
+		 position: absolute;
+	     top:710%;
+         left:40%;
+	     box-sizing: border-box;
+	     width: 50%;
+	     height: 70%;
+	     }
+
+
+
+
+#enviado{ width: 10%;
+	margin-right: 50%;
+ 	
+ 	/*height: 400px;
+	    font-size: 90%;*/
+         
+
+ }
+
+}/*llave de media
+
+
+
+
+
+
